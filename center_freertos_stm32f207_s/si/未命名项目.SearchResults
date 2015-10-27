@@ -1,0 +1,16 @@
+---- SystemCoreClock Æ¥Åä (16 in 0 ÎÄ¼þ) ----
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *      - SystemCoreClock variable: Contains the core clock (HCLK), it can be used
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *      - SystemCoreClockUpdate(): Updates the variable SystemCoreClock and must
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  uint32_t SystemCoreClock = 120000000;
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  * @brief  Update SystemCoreClock variable according to Clock Register Values.
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *         The SystemCoreClock variable contains the core clock (HCLK), it can
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *         to update SystemCoreClock variable value. Otherwise, any configuration
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *           - If SYSCLK source is HSI, SystemCoreClock will contain the HSI_VALUE(*)
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *           - If SYSCLK source is HSE, SystemCoreClock will contain the HSE_VALUE(**)
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  *           - If SYSCLK source is PLL, SystemCoreClock will contain the HSE_VALUE(**) 
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):void SystemCoreClockUpdate(void)
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):      SystemCoreClock = HSI_VALUE;
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):      SystemCoreClock = HSE_VALUE;
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):      SystemCoreClock = pllvco/pllp;
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):      SystemCoreClock = HSI_VALUE;
+System_stm32f2xx.c (libraries\cmsis\cm3\devicesupport\st\stm32f2xx):  SystemCoreClock >>= tmp;

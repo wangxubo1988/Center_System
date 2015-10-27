@@ -1,0 +1,11 @@
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\portable\MemMang\heap_2.c
+.\stm322xg_eval\heap_2.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\FreeRTOS.h
+.\stm322xg_eval\heap_2.o: d:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\projdefs.h
+.\stm322xg_eval\heap_2.o: ..\inc\FreeRTOSConfig.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\portable.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\portable\MDK-ARM\ARM_CM3\portmacro.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\mpu_wrappers.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\task.h
+.\stm322xg_eval\heap_2.o: ..\..\..\Utilities\Third_Party\FreeRTOS\include\list.h

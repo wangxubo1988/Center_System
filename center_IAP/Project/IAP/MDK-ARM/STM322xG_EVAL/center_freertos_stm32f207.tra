@@ -1,0 +1,42 @@
+*** Creating Trace Output File '.\STM322xG_EVAL\center_freertos_stm32f207.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\stm322xg_eval\system_stm32f2xx.o"'
+### List of Objects: adding '".\stm322xg_eval\startup_stm32f2xx.o"'
+### List of Objects: adding '".\stm322xg_eval\main.o"'
+### List of Objects: adding '".\stm322xg_eval\serial_debug.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_it.o"'
+### List of Objects: adding '".\stm322xg_eval\update_program.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_dma.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_gpio.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_rcc.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_sdio.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_spi.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_usart.o"'
+### List of Objects: adding '".\stm322xg_eval\misc.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_syscfg.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_flash.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_rtc.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_exti.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_i2c.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_pwr.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32f2xx_iwdg.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32_eval_sdio_sd.o"'
+### List of Objects: adding '".\stm322xg_eval\stm32_eval.o"'
+### List of Objects: adding '".\stm322xg_eval\diskio.o"'
+### List of Objects: adding '".\stm322xg_eval\ff.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\stm322xg_eval\system_stm32f2xx.o" ".\stm322xg_eval\startup_stm32f2xx.o" ".\stm322xg_eval\main.o" ".\stm322xg_eval\serial_debug.o" ".\stm322xg_eval\stm32f2xx_it.o" ".\stm322xg_eval\update_program.o" ".\stm322xg_eval\stm32f2xx_dma.o" ".\stm322xg_eval\stm32f2xx_gpio.o" ".\stm322xg_eval\stm32f2xx_rcc.o" ".\stm322xg_eval\stm32f2xx_sdio.o" ".\stm322xg_eval\stm32f2xx_spi.o" ".\stm322xg_eval\stm32f2xx_usart.o" ".\stm322xg_eval\misc.o" ".\stm322xg_eval\stm32f2xx_syscfg.o" ".\stm322xg_eval\stm32f2xx_flash.o" ".\stm322xg_eval\stm32f2xx_rtc.o" ".\stm322xg_eval\stm32f2xx_exti.o" ".\stm322xg_eval\stm32f2xx_i2c.o" ".\stm322xg_eval\stm32f2xx_pwr.o" ".\stm322xg_eval\stm32f2xx_iwdg.o" ".\stm322xg_eval\stm32_eval_sdio_sd.o" ".\stm322xg_eval\stm32_eval.o" ".\stm322xg_eval\diskio.o" ".\stm322xg_eval\ff.o" --library_type=microlib --strict --scatter ".\STM322xG_EVAL\center_freertos_stm32f207.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM322xG_EVAL\center_freertos_stm32f207.map" -o ".\STM322xG_EVAL\center_freertos_stm32f207.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\STM322xG_EVAL\center_freertos_stm32f207.axf'
+### ADS-LD Command File: '.\STM322xG_EVAL\center_freertos_stm32f207.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\STM322xG_EVAL\center_freertos_stm32f207.lnp', Handle=0x0000035C
+### Writing '.lnp' file
+### ADS-LD Command file '.\STM322xG_EVAL\center_freertos_stm32f207.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
